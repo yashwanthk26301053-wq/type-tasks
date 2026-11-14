@@ -1,0 +1,25 @@
+.wrap {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 16px;
+}
+.addrow {
+  display: flex;
+  gap: 8px;
+}
+#add {
+  background: #2b7ffe;
+  color: #c5aeae;
+  border: none;
+  border-radius: 9px;
+  padding: 9px 16px;
+  cursor: pointer;
+}
+li.task {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  border: 1px solid #a7adbc;
+  border-radius: 11px;
+  padding: 10px;
+}
